@@ -1,0 +1,40 @@
+.container-fluid {
+    background-color: #f3f4f7;
+
+}
+
+.card {
+    word-wrap: break-word;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 11px 33px rgb(0 0 0 / 5%);
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.mel {
+    margin: 0.5rem;
+}
+
+.melzin {
+    margin: -0.3rem;
+    background-color: #3C97CC; 
+    color: white;  
+}
+
+.yellow10{
+    color: #fbbe30;
+    font-size: 36px;
+}
+.material-icons.md-38 { font-size: 38px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.yellow10 {color: #FFBE0B;}
+.material-icons.green10 {color: #43D39E;}
+.material-icons.purple10 {color: #5369F8;}
+.material-icons.blue10{color: #25C2E3;}
+.material-icons.red10{color: #E44269;}
+.material-icons.green110{color: #43D39E;}
+
+.alinhar {
+    margin: 0.5rem;
+}

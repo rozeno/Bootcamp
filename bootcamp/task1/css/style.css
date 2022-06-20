@@ -1,0 +1,63 @@
+body {
+    background-color: #F3F4F7!important;
+}
+
+.card {
+    border-radius: 2%;
+}
+
+body,
+h1,
+h2,
+h3,
+h5,
+p,
+span,
+label,
+input,
+button {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #737C83;
+    font-size: 13px;
+}
+
+
+h4 {
+    color: #4b4b5a;
+    font-size: 19px;
+}
+
+
+
+.avatar {
+    background-color: #ebf4ff;
+    border-radius: 100%;
+    height: 5rem;
+    width: 5rem;
+    margin: 0.5rem; /* 8 px */
+    display: flex;
+    align-items: center;   
+    justify-content: center; /* align items junto com justify content servem para que todo conteúdo,
+                                nao sendo somente texto, se justifique dentro de nossa classe */
+    
+}
+
+
+.avatar:hover {
+    background-color: #7f9cf5;    
+}
+
+.avatar:hover > label{
+    color: #ebf4ff;    
+
+}
+.avatar > label {
+    margin-bottom: 0; /* para o bootstrap nao zoar nosso codigo */
+    color: #7f9cf5;
+    font-size: 2.8rem;
+}
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+

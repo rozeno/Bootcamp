@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+            rel="stylesheet">
+        <script
+            src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="/bootcamp/task2/css/button.css" />
+        <link rel="stylesheet" href="/bootcamp/task2/css/style.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulário</title>
+    </head>
+    <body>
+        <div class="container-fluid p-2">
+            <div class="d-flex justify-content-between flex-wrap">
+                <div>
+                    <h4 class="alinhar">Suas estatísticas <span>(01 Jan - 31 Dec)</span></h4>
+                </div>
+                <div class="justify-content-end flex-wrap">
+                    <button class="btn btn-dark mel">HOJE</button>
+                    <button class="btn btn-dark mel">ONTEM</button>
+                    <button class="btn btn-dark mel">AMANHÃ</button>
+                    <button class="btn btn-dark mel">ESTA SEMANA</button>
+                    <button class="btn btn-dark mel">SEMANA PASSADA</button>
+                    <button class="btn btn-dark mel">ESTE MÊS</button>
+                    <button class="btn btn-dark mel">ESTE ANO</button>
+                    <button class="btn btn-secondary mel">PERSONALIZADO</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <span class="text-muted text-uppercase fs-12
+                                font-weight-bold">Durações do equipamento</span>
+                            <div class="d-flex">
+                                <div class="col-lg-11 col-12">
+                                    <table class="table">
+                                        <thead>
+                                            <th class="text-muted fs-12
+                                                font-weight-bold">Nome</th>
+                                            <th class="text-muted fs-12
+                                                font-weight-bold">
+                                                Durações
+                                            </th>
+                                        </thead>
+                                    </table>
+                                </div>
+                                <div class="align-self-center">
+                                    <span class="material-icons md-48 yellow10">&#xE924;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="col-lg-11">
+                                    <h4>Manuntenções regulatórias</h4>
+                                    <table class="table">
+                                        <thead>
+                                            <th>Local Nome</th>
+                                            <th>Nome Regulatório</th>
+                                            <th>Dias Vencimento</th>
+                                            <th>Data de expiração</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td></td>
+                                                <td>Certifica de Proficiência
+                                                    Controllab 2021</td>
+                                                <td class="text-danger">-39</td>
+                                                <td class="text-danger">21/04/2022</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>Certidão Controllab</td>
+                                                <td class="text-danger">-34</td>
+                                                <td class="text-danger">26/04/2022</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>Alvará Sanitário</td>
+                                                <td class="text-danger">-30</td>
+                                                <td class="text-danger">30/04/2022</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>Certidão Federal</td>
+                                                <td class="text-danger">-15</td>
+                                                <td class="text-danger">15/05/2022</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>PCMSO</td>
+                                                <td class="text-danger">-8</td>
+                                                <td class="text-danger">22/05/2022</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>PPRA</td>
+                                                <td class="text-danger">-8</td>
+                                                <td class="text-danger">22/05/2022</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="align-self-center
+                                    justify-content-end">
+                                    <span class="material-icons md-36 green10">&#xe862;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="col-lg-11">
+                                    <h4>Contagem de exames laboratoriais</h4>
+                                    <table class="table">
+                                        <thead>
+                                            <th>Lab</th>
+                                            <th>Pendente</th>
+                                            <th>Cancelado</th>
+                                            <th>Completado</th>
+                                        </thead>
+                                    </table>
+                                </div>
+                                <div class="align-self-center">
+                                    <span class="material-icons md-38 green10">&#xe862;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="col-lg-11">
+                                    <span class="text-muted text-uppercase fs-12
+                                        font-weight-bold">Média de
+                                        compromissos/dia</span>
+                                    <h3 class="h3 mb-0">0.0</h3>
+                                </div>
+                                <div class="align-self-center">
+                                    <span class="material-icons md-36 purple10">&#xe916;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="col-lg-11">
+                                    <span class="text-muted text-uppercase fs-12
+                                        font-weight-bold">Média de carga de
+                                        trabalho/enfermeira</span>
+                                    <h3 class="h3 mb-0">0.0%</h3>
+                                </div>
+                                <div class="align-self-center">
+                                    <span class="material-icons md-36 red10">&#xe7fd;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="col-lg-11">
+                                    <span class="text-muted text-uppercase fs-12
+                                        font-weight-bold">Renda média de
+                                        compromissos por dia
+                                    </span>
+                                    <h3 class="h3 mb-0">$0.0</h3>
+                                </div>
+                                <div class="align-self-center">
+                                    <span class="material-icons md-36 green10">&#xe8a1;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="col-lg-11">
+                                    <span class="text-muted text-uppercase fs-12
+                                        font-weight-bold">Compromissos pendentes
+                                        de pagamento
+                                    </span>
+                                    <h3 class="h3 mb-0">0</h3>
+                                </div>
+                                <div class="align-self-center">
+                                    <span class="material-icons md-36 blue10">&#xe24f;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="col-lg-11">
+                                    <span class="text-muted text-uppercase fs-12
+                                        font-weight-bold">Serviço contratado
+                                    </span>
+                                    <h3 class="h3 mb-0">0
+                                    </h3>
+                                </div>
+                                <div class="align-self-center">
+                                    <span class="material-icons md-36 green10">&#xe862;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="col-lg-11">
+                                    <span class="text-muted text-uppercase fs-12
+                                        font-weight-bold">EXAME CRIADO
+                                    </span>
+                                    <h3 class="h3 mb-0">0
+                                    </h3>
+                                </div>
+                                <div class="align-self-center">
+                                    <span class="material-icons md-36 green110">&#xe916;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="col-lg-11">
+                                    <span class="text-muted text-uppercase fs-12
+                                        font-weight-bold">ACEITO NO LABORATÓRIO
+                                    </span>
+                                    <h3 class="h3 mb-0">0
+                                    </h3>
+                                </div>
+                                <div class="align-self-center">
+                                    <span class="material-icons md-36 green10">&#xe8f9;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 form-group">
+                    <div class="card w-full">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between
+                                flex-wrap">
+                                <div class="filtro">
+                                    <button type="button" class="btn
+                                        btn-transparent melzin">
+                                        Por vir
+                                    </button>
+                                    <button type="button" class="btn
+                                        btn-transparent melzin">
+                                        Aprovado
+                                    </button>
+                                    <button type="button" class="btn
+                                        btn-transparent melzin">
+                                        Pendente
+                                    </button>
+                                    <button type="button" class="btn
+                                        btn-transparent melzin">
+                                        Cancelado
+                                    </button>
+                                    <button type="button" class="btn
+                                        btn-transparent melzin">
+                                        Rejeitado
+                                    </button>
+                                </div>
+                                <div class="form-group">
+                                    <label>Procurar</label> <div class="input">
+                                        <div class="input_control">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <table class="table">
+                                <thead>
+                                    <th>Data</th>
+                                    <th>Serviço</th>
+                                    <th>Paciente</th>
+                                    <th>Endereço</th>
+                                    <th>Enfermeiro(a)</th>
+                                    <th>Localização</th>
+                                    <th>Status</th>
+                                </thead>
+                            </table>
+                            <table class="table">
+                                <thead>
+                                    <th>Sem dados disponíveis</th>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
